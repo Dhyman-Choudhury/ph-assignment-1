@@ -52,3 +52,13 @@ body{
 }
 
 /* main section styles */
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+margin section{
+    margin-top: 180px;
+}
+.vision_container{
+    display: flex;
+}
