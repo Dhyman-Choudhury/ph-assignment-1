@@ -3,3 +3,52 @@
 body{
     font-family: "Fira Sans", serif;
 }
+.btn_banner{
+    
+    background-color: #006A50;
+    color: #FFFFFF;
+    width: 270px;
+    height: 56px;
+    border-radius:8px ;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+/* header section style */
+.header{
+    background-color: #C6E4D6;
+    max-width: 1280px;
+    border-radius: 24px;
+    margin: 50px auto;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.banner_content{
+   max-width: 622px;
+    margin: 117px 60px 117px  64px;
+}
+
+.banner img{
+    margin: 80px 60px 80px 0px;
+}
+.banner_subtitle{
+    font-weight:500 ;
+    font-size: 24px;
+    color:rgba(14, 14, 14, 0.5);
+    
+}
+.banner_title{
+    font-weight: 700;
+    font-size: 56px;
+    color: #0E0E0E;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    
+}
+
+/* main section styles */
