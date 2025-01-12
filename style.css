@@ -154,6 +154,20 @@ margin section{
     color: rgba(14, 14, 14, 0.7);
 }
 
+/* quote styles */
+.quote{
+    background-image: url(assets/quote-bg.png) ;
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 36px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px 24px;
+    
+}
+.quote p{
+   
+}
 /* recent news section styles */
 .recent_news_1{
     display: flex;
@@ -195,3 +209,62 @@ margin section{
 /* .recent_news_1 .content{
     margin: 48px 48px 48px 0px;
 } */
+
+/* donate section styles */
+footer{
+    margin: 0 auto;
+}
+.donate_column{
+    max-width: 1280px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.donate_title{
+font-weight: 700;
+font-size: 40px;
+color: #0E0E0E;
+margin-bottom: 24px;
+}
+.donate_description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    padding: 0 88px;
+}
+.btn_amount{
+    width: 240px;
+    height: 128px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: none;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 700;
+    font-size: 40px;
+    margin-right: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: #C6E4D6;
+}
+.btn_amount:hover{
+    background-color: tomato;
+    color: aqua;
+}
+.donate_column form{
+    width: 1032px;
+    height: 64px;
+    background-color: #FFFFFF;
+    /* padding: 20px 40px; */
+    margin: 0px 124px 32px ;
+}
+input[type="text"] {
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 422px;
+    align-items: center;
+}
