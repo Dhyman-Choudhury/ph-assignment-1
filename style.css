@@ -185,7 +185,19 @@ margin section{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.6);
 }
+
 /* recent news section styles */
+.headline h1{
+font-weight: 700;
+font-size: 40px;
+color: #0E0E0E;
+margin-bottom: 24px;
+}
+.headline p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
 .recent_news_1{
     display: flex;
     gap: 32px;
@@ -194,6 +206,7 @@ margin section{
     padding: 48px;
     margin-bottom:24px;
     align-items: center;
+    border-radius: 24px;
 }
 
 .headline{
@@ -223,9 +236,7 @@ margin section{
     margin-bottom: 12px;
     color: rgba(14, 14, 14, 0.7);
 }
-/* .recent_news_1 .content{
-    margin: 48px 48px 48px 0px;
-} */
+
 
 /* donate section styles */
 
@@ -264,7 +275,14 @@ margin-bottom: 24px;
 .btn2{
     background-color: #C6E4D6;
 }
-.btn_amount:hover{
+.btn_amount:hover,
+.btn_1:hover,
+.btn_2:hover,
+ .btn_3:hover,
+ .btn2:hover,
+ .btn_banner:hover,
+ input[type="submit"]:hover
+ {
     background-color: tomato;
     color: aqua;
 }
@@ -340,6 +358,6 @@ form input[type="submit"] {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 18px;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-radius: 0 8px 8px 0;
 }
